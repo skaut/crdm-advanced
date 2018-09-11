@@ -1,1 +1,1 @@
-# crdm-spolky-rozsirena
+# crdm-advanced
