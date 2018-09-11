@@ -1,0 +1,81 @@
+// Simple Calendar - START
+table.simcal-calendar-grid {
+  border: 0;
+
+  thead.simcal-calendar-head {
+
+    .simcal-nav .simcal-nav-button {
+      color: #8d8c8c !important;
+    }
+
+    th {
+      border: 0;
+    }
+
+    tr:first-child th {
+      border-bottom: 1px solid #8d8c8c;
+    }
+
+    th.simcal-current {
+      color: #8d8c8c !important;
+    }
+
+    th.simcal-week-day {
+      color: #8d8c8c !important;
+      font-weight: 400 !important;
+    }
+  }
+
+  tbody.simcal-month {
+
+    td {
+      border: 0;
+      border-left: 1px solid #8d8c8c;
+    }
+
+    td:first-child {
+      border-left: 0;
+    }
+
+    .simcal-day-label.simcal-day-number {
+      background-color: transparent !important;
+      color: #8d8c8c !important;
+      font-weight: bold;
+    }
+
+    .simcal-day:hover:not(.simcal-day-void) {
+      background-color: #f58053;
+    }
+
+    .simcal-day-void {
+      background-color: transparent !important;
+    }
+
+    .simcal-today {
+      background-color: #65c3d2 !important;
+
+      > div {
+        border: 0 !important;
+      }
+    }
+
+    .simcal-events-dots {
+
+      b {
+        color: #8d8c8c !important;
+      }
+    }
+
+  }
+
+}
+
+.simcal-calendar-list-compact {
+
+  .simcal-calendar-head h3 {
+    color: var(--listPrimaryColor);
+    font-weight: bold;
+  }
+}
+
+// Simple Calendar - END

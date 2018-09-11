@@ -1,0 +1,39 @@
+.widget-area .widget {
+  padding: 1em;
+  box-shadow: 2px 1px 1px 0 rgba(0, 0, 0, 0.1), 1px 1px 1px 0 rgba(127, 127, 127, 0.1);
+  border-radius: var(--main-border-radius);
+
+  a,
+  a:visited,
+  a:hover {
+    color: #f58053;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.widget-area .widget_search {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+
+  .search-form {
+    margin-right: 0.25em;
+  }
+
+  .search-field {
+    min-height: 28px;
+    padding: 0 1.5em 0 0;
+    background: url('../img/search.png') right center no-repeat;
+    background-size: 19px auto;
+    border: 0;
+    text-align: right;
+    font-size: 0.9em;
+    box-sizing: border-box;
+
+    @include placeholder {
+      color: #ccc;
+    }
+  }
+}

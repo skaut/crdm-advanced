@@ -1,0 +1,75 @@
+.main-navigation {
+  background-color: transparent;
+
+  .main-nav > ul {
+    position: relative;
+    z-index: 2;
+  }
+
+  .main-nav ul li a {
+    position: relative;
+    font-size: 16px;
+  }
+
+  li.search-item {
+    position: relative;
+  }
+
+  li.search-item a:before,
+  span.search-item a:before {
+    visibility: hidden;
+  }
+
+  li.search-item a:after,
+  span.search-item a:after {
+    content: "";
+    width: 19px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background: url('../img/search.png') center center no-repeat;
+    background-size: 19px auto;
+  }
+
+  .main-nav > ul > li:not(.search-item) > a:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    left: calc(100% - 3px);
+    top: 50%;
+    top: calc(50% - 2px);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .main-nav ul ul li a {
+    border-top: 1px solid #6f7475;
+  }
+
+  .main-nav ul ul li:first-child a {
+    border-top-color: transparent;
+  }
+
+  .main-nav ul.sub-menu {
+    background-color: #f9f9f9;
+
+    li:first-child a {
+      border-top-left-radius: var(--main-border-radius);
+      border-top-right-radius: var(--main-border-radius);
+    }
+
+    li:last-child a {
+      border-bottom-left-radius: var(--main-border-radius);
+      border-bottom-right-radius: var(--main-border-radius);
+    }
+  }
+
+  body & .main-nav ul li:hover > a,
+  body & .main-nav ul li:focus > a,
+  body & .main-nav ul li.sfHover > a {
+    background-color: inherit;
+  }
+}

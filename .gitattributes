@@ -1,0 +1,15 @@
+* text=auto
+
+*.map   binary
+*.min.* binary
+
+.gitignore      export-ignore
+.gitattributes  export-ignore
+README.md       export-ignore
+composer.json   export-ignore
+composer.lock   export-ignore
+
+/assets/dev/     export-ignore
+/assets/img-dev/ export-ignore
+
+/vendor/aristath/kirki/.gitignore export-ignore
