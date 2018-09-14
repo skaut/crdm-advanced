@@ -49,6 +49,11 @@ class Menu {
 					'choice'   => 'color',
 					'element'  => '.dropdown-menu-toggle:before',
 					'property' => 'color'
+				],
+				[
+					'choice'   => 'color',
+					'element'  => '.nav-search-enabled .main-navigation .menu-toggle',
+					'property' => 'color'
 				]
 			],
 			'transport' => 'auto'
@@ -59,7 +64,7 @@ class Menu {
 			'settings'  => 'menuSeparatorColor',
 			'label'     => esc_attr__( 'Barva oddělovače položek menu', 'crdm-advanced' ),
 			'section'   => $this->sectionId,
-			'default'   => '#3b969f',
+			'default'   => '#f58053',
 			'output'    => [
 				[
 					'element'  => '.main-nav > ul > li > a:after',

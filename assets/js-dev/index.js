@@ -10,5 +10,6 @@ if (!browserSupportCssVariables()) {
 }
 
 (function ($) {
+    $('.crdm-cards article .wp-show-posts-inner').addClass('widget');
 
 })(jQuery);

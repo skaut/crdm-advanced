@@ -82,7 +82,7 @@ body {
     }
   }
 
-  ul li:before {
+  ul li:not(.simcal-event):before {
     content: '\2022';
     padding-right: 0.4em;
     color: var(--listPrimaryColor);
@@ -112,7 +112,7 @@ body {
     color: var(--listPrimaryColor);
   }
 
-  table {
+  table:not(.simcal-calendar-grid) {
 
     thead {
       background-color: var(--theadBgColor);
