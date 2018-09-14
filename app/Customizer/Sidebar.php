@@ -42,7 +42,7 @@ class Sidebar {
 			],
 			'output'    => [
 				[
-					'element' => '.sidebar .widget'
+					'element' => '.sidebar .widget, .site-main .widget'
 				]
 			],
 			'transport' => 'auto'
@@ -64,7 +64,7 @@ class Sidebar {
 			],
 			'output'    => [
 				[
-					'element' => '.sidebar .widget .widget-title'
+					'element' => '.sidebar .widget .widget-title, .site-main .widget .widget-title'
 				]
 			],
 			'transport' => 'auto'
@@ -85,7 +85,7 @@ class Sidebar {
 			],
 			'output'    => [
 				[
-					'element' => '.sidebar .widget'
+					'element' => '.sidebar .widget, .site-main .widget'
 				]
 			],
 			'transport' => 'auto'
@@ -99,7 +99,7 @@ class Sidebar {
 			'default'   => '#f58053',
 			'output'    => [
 				[
-					'element'  => '.sidebar .widget a, .sidebar .widget a:visited, .sidebar .widget a:hover',
+					'element'  => '.sidebar .widget a, .sidebar .widget a:visited, .sidebar .widget a:hover, .site-main .widget a, .site-main .widget a:visited, .site-main .widget a:hover',
 					'property' => 'color'
 				]
 			],

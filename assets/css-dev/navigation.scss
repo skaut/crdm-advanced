@@ -32,19 +32,6 @@
     background-size: 19px auto;
   }
 
-  .main-nav > ul > li:not(.search-item) > a:after {
-    content: "";
-    position: absolute;
-    left: 100%;
-    left: calc(100% - 3px);
-    top: 50%;
-    top: calc(50% - 2px);
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    z-index: 1;
-  }
-
   .main-nav ul ul li a {
     border-top: 1px solid #6f7475;
   }
@@ -71,5 +58,37 @@
   body & .main-nav ul li:focus > a,
   body & .main-nav ul li.sfHover > a {
     background-color: inherit;
+  }
+
+}
+
+.main-navigation:not(.toggled) .main-nav > ul > li:not(.search-item) > a:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  left: calc(100% - 3px);
+  top: 50%;
+  top: calc(50% - 2px);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+@media (max-width: 1000px) {
+  .main-navigation .menu-toggle,
+  .main-navigation .mobile-bar-items,
+  .sidebar-nav-mobile:not(#sticky-placeholder) {
+    display: block;
+  }
+
+  .main-navigation ul,
+  .gen-sidebar-nav {
+    display: none;
+  }
+
+  [class*="nav-float-"] .site-header .inside-header > * {
+    float: none;
+    clear: both;
   }
 }

@@ -5,6 +5,18 @@
   .widget-title {
     margin-bottom: 15px;
     color: #4e4e4d;
+    position: relative;
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 110%;
+      width: 129px;
+      height: 5px;
+      background: url('../img/title-line-footer.png') center center no-repeat;
+      background-size: auto 100%;
+    }
   }
 
   a,

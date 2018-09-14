@@ -1,0 +1,50 @@
+/* WP Show Posts - START */
+.wp-show-posts-inner {
+
+  h3.wp-show-posts-entry-title {
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #7f7f7f;
+    position: relative;
+
+    a,
+    a:visited {
+      color: #7f7f7f;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 5%;
+      right: 5%;
+      top: 110%;
+      height: 7px;
+      background: url('../img/title-line-red.png') center center no-repeat;
+      background-size: auto 100%;
+    }
+  }
+
+  .wp-show-posts-entry-summary {
+    text-align: center;
+  }
+}
+
+.crdm-cards article .wp-show-posts-inner {
+
+  h3.wp-show-posts-entry-title {
+
+    &:after {
+      height: 5px;
+      background-image: url('../img/title-line-grey.png');
+    }
+  }
+}
+
+/* WP Show Posts - END */

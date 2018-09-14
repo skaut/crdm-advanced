@@ -1,6 +1,8 @@
-.widget-area .widget {
+.widget-area .widget,
+.site-main .widget {
   padding: 1em;
-  box-shadow: 2px 1px 1px 0 rgba(0, 0, 0, 0.1), 1px 1px 1px 0 rgba(127, 127, 127, 0.1);
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.1), 1px 1px 1px 0 rgba(127, 127, 127, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: var(--main-border-radius);
 
   a,
@@ -14,7 +16,8 @@
   }
 }
 
-.widget-area .widget_search {
+.widget-area .widget_search,
+.site-main .widget_search {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
 

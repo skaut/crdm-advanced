@@ -2,3 +2,30 @@
   height: 3px;
   clear: both;
 }
+
+/*.site-footer h2,
+.decorative-line {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 3.75rem;
+    width: 5px;
+    height: 5px;
+    transform: translateX(-50%);
+    background-color: var(--listPrimaryColor);
+    border-radius: 50%;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 3.5rem;
+    height: 1px;
+    background-color: var(--listPrimaryColor);
+  }
+}*/
