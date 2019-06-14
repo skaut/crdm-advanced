@@ -9,7 +9,6 @@ return array(
     'Crdm\\Admin\\Init' => $baseDir . '/app/Admin/Admin.php',
     'Crdm\\Customizer\\Background' => $baseDir . '/app/Customizer/Background.php',
     'Crdm\\Customizer\\BorderRadius' => $baseDir . '/app/Customizer/BorderRadius.php',
-    'Crdm\\Customizer\\ColorVariant' => $baseDir . '/app/Customizer/ColorVariant.php',
     'Crdm\\Customizer\\Content' => $baseDir . '/app/Customizer/Content.php',
     'Crdm\\Customizer\\Footer' => $baseDir . '/app/Customizer/Footer.php',
     'Crdm\\Customizer\\Init' => $baseDir . '/app/Customizer/Init.php',
