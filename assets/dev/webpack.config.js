@@ -41,8 +41,7 @@ module.exports = {
     },
     output: {
         filename: '[name].js',
-        path: path.resolve(__dirname + './../', 'js'),
-        publicPath: path.resolve(__dirname + './../'),
+        path: path.resolve(__dirname + './../', 'js')
     },
     devtool: 'source-map',
     watchOptions: {
