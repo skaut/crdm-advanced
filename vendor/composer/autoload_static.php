@@ -6,10 +6,6 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit89cc43e5acd50d42543eea0c9aebcfe6
 {
-    public static $files = array (
-        'ff94b54cc49d91067b6c55e8792511c4' => __DIR__ . '/..' . '/aristath/kirki/kirki.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
         'C' => 
         array (
@@ -28,7 +24,6 @@ class ComposerStaticInit89cc43e5acd50d42543eea0c9aebcfe6
         'Crdm\\Admin\\Init' => __DIR__ . '/../..' . '/app/Admin/Admin.php',
         'Crdm\\Customizer\\Background' => __DIR__ . '/../..' . '/app/Customizer/Background.php',
         'Crdm\\Customizer\\BorderRadius' => __DIR__ . '/../..' . '/app/Customizer/BorderRadius.php',
-        'Crdm\\Customizer\\ColorVariant' => __DIR__ . '/../..' . '/app/Customizer/ColorVariant.php',
         'Crdm\\Customizer\\Content' => __DIR__ . '/../..' . '/app/Customizer/Content.php',
         'Crdm\\Customizer\\Footer' => __DIR__ . '/../..' . '/app/Customizer/Footer.php',
         'Crdm\\Customizer\\Init' => __DIR__ . '/../..' . '/app/Customizer/Init.php',
